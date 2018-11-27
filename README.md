@@ -1,6 +1,8 @@
 # fontawesome_svg_ruby 
 
-TODO: Write a gem description
+Embed fontawesome icons as SVGs directly in your views.
+
+Save 
 
 ## Installation
 
@@ -12,13 +14,19 @@ And then execute:
 
     $ bundle install
 
-Or install it yourself as:
+Add this line to your application.css file
 
-    $ gem install fontawesome_svg_ruby 
+    //= require fa-svg
+
 
 ## Usage
 
-TODO: Write usage instructions here
+To embed an icon you can use the included view helpers.
+
+    = fa_inline_svg('brands', 'facebook')
+    = fa_inline_svg('solid', 'question')
+    = fa_inline_svg('solid', 'question', class: 'fa-4x')
+
 
 ## Contributing
 
