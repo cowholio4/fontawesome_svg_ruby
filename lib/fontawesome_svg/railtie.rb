@@ -1,4 +1,4 @@
-require 'rails/railtie'
+require 'rails/railtie' if defined?(Rails)
 module FontawesomeSvg 
   class Railtie < ::Rails::Railtie
     initializer "fontawesome_svg.action_view" do |app|

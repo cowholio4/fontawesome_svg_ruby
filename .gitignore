@@ -51,3 +51,4 @@ build-iPhoneSimulator/
 
 # Ignore Font Awesome root dir
 Font-Awesome/
+*.swp
