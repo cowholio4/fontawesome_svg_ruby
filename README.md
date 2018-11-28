@@ -2,7 +2,7 @@
 
 Embed fontawesome icons as SVGs directly in your views.
 
-Save 
+Font Awesome is awesome! But most projects only use a handful of icons. Instead of loading the icons using a web font, use SVGs. By using embedded SVGs you save bandwidth, increase your page speed and prevent FOUC (flash of unstyled content). This gem makes embedding font awesome icons easy for Rails and Middleman projects.
 
 ## Installation
 
@@ -21,7 +21,7 @@ Add this line to your application.css file
 
 ## Usage
 
-To embed an icon you can use the included view helpers.
+To embed an icon in Rails or Middleman you can use the included view helpers.
 
     = fa_inline_svg('brands', 'facebook')
     = fa_inline_svg('solid', 'question')
